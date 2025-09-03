@@ -7,7 +7,7 @@ body{
 }
 
 .container{
-    height: 300px;
+    height: 400px;
     width: 400px;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
@@ -17,11 +17,8 @@ body{
 
 .todo-item{
     display: flex;
-    flex-direction: column;
-}
-
-.todo-span{
-    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .todo-button{

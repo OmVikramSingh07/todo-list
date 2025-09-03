@@ -7,9 +7,12 @@ import "./todo.css";
 const App = () => {
   return (
     <div className="container">
-      <Header/>
-      <TODOItem/>
-     
+      <Header title ="Todoie-app"/>
+      <TODOItem text ="Eat"/>
+      <TODOItem text ="Code"/>
+      <TODOItem text ="Game"/>
+      <TODOItem text ="Study"/>
+      <TODOItem text ="Exercise"/>
       <Button/>
     </div>
   );

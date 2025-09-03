@@ -1,28 +1,13 @@
 import React from "react";
- const TODOItem = () => {
+ const TODOItem = (props) => {
     return(
         <li className="todo-item">
-          <span className="todo-span">
+          <span>
             <input type="checkbox"/>
-            <span className="todo-item-text">Eat</span>
+            <span className="todo-item-text">{props.text}</span>
            </span>
-          <span className="todo-span">
-            <input type="checkbox"/>
-            <span className="todo-item-text">Code</span>
-           </span>
-          <span className="todo-span">
-            <input type="checkbox"/>
-            <span className="todo-item-text">Game</span>
-           </span>
-          <span className="todo-span">
-            <input type="checkbox"/>
-            <span className="todo-item-text">Reading</span>
-           </span>
-          <span className="todo-span">
-            <input type="checkbox"/>
-            <span className="todo-item-text">Exercise</span>
-           </span>
-           
+            <p>...</p>
+
         </li>
     )
  }
